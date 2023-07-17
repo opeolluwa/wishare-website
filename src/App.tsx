@@ -1,35 +1,42 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-
+import { ArrowDownIcon } from "@heroicons/react/24/solid";
+import screenshotSrc from "./assets/screenshot.png";
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <header className="flex items-center justify-center px-12 py-10 mt-4 w-full gap-10">
+        <div>
+          <h1 className="text-3xl font-bold capitalize leading-10 py-2">
+            quickly and securely share files without internet
+          </h1>
+          <p className="leading-8 text-gray-500 pb-4 text-lg">
+            Offline file sharing application for Windows, Linux, Mac and Android
+            devices using WiFi.
+          </p>
+          <a
+            href="#"
+            className="inline-flex items-center justify-between capitalize px-4 py-2 bg-app rounded text-white mt-2"
+          >
+            download
+            <ArrowDownIcon className="w-6 h-6 pl-2" />
+          </a>
+        </div>
+        <div className="">
+          <img
+            src={screenshotSrc}
+            alt="wishare application screenshot"
+            className="rounded-sm w-2/3 shadow-lg"
+          />
+        </div>
+      </header>
+      <main className="bg-app-50 px-10 py-10">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi officia sint fugit quam minus harum omnis temporibus earum incidunt id veritatis, debitis deserunt quae a magni quo, optio est saepe!
+
+      </main>
+      <footer>
+
+      </footer>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
