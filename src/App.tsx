@@ -45,8 +45,8 @@ function App() {
         </ul>
       </nav>
       <header className="bg-[#1D4ED8] text-white sm:px-10 px-4 sm:gap-10 lg:py-20 py-10 sm:flex items-center relative">
-        <div className="px-8 md:w-1/2 lg:text-center sm:text-left">
-          <h1 className="text-2xl lg:text-5xl font-black  capitalize leading-8 lg:leading-none  py-4">
+        <div className="px-8 md:w-1/2 text-center sm:text-left">
+          <h1 className="text-3xl lg:text-5xl font-black  capitalize leading-10 lg:leading-none  py-4">
             quickly and securely share files on PC without internet
           </h1>
           <p className="leading-6 lg:leading-8 text-gray-100 pb-6 lg:pt-4 lg:text-lg">
@@ -55,7 +55,7 @@ function App() {
           </p>
           <a
             href="#"
-            className="inline-flex items-center justify-between capitalize   px-8 py-4 bg-gray-800 rounded-lg text-white mt-2"
+            className="inline-flex items-center justify-between capitalize   px-8 lg:py-4 py-2 bg-gray-800  rounded lg:rounded-lg text-white mt-2"
           >
             download
             <ArrowDownIcon className="w-6 h-6 pl-2" />
@@ -64,7 +64,7 @@ function App() {
         <img
           src={wiShareScreenshot}
           alt="WiShare application screenshot"
-          className="rounded-lg md:w-2/3 mt-4 mb-20 shadow-md shadow-gray-800 block"
+          className="rounded-lg md:w-2/3 mt-6 mb-20 shadow-md shadow-gray-800 block"
         />
 
         <div className="custom-shape-divider-bottom-1689638420 hidden lg:block">
