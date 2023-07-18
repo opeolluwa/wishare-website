@@ -1,6 +1,5 @@
 import { ArrowDownIcon } from "@heroicons/react/24/solid";
 import wiShareScreenshot from "./assets/screenshot.png";
-import demoImage from "./assets/demo.png";
 
 import {
   CubeIcon,
