@@ -44,18 +44,18 @@ function App() {
           </li>
         </ul>
       </nav>
-      <header className="bg-[#1D4ED8] text-white sm:px-10 px-2 sm:gap-10 py-20 sm:flex items-center relative">
+      <header className="bg-[#1D4ED8] text-white sm:px-10 px-4 sm:gap-10 py-20 sm:flex items-center relative">
         <div className="px-8 md:w-1/2 text-center sm:text-left">
-          <h1 className="text-5xl font-black  capitalize leading-none py-2">
+          <h1 className="text-2xl lg:text-5xl font-black  capitalize leading-10 lg:leading-none  py-2">
             quickly and securely share files on PC without internet
           </h1>
-          <p className="leading-8 text-gray-100 pb-6 pt-4 text-lg">
+          <p className="leading-6 lg:leading-8 text-gray-100 pb-6 lg:pt-4 lg:text-lg">
             Offline file sharing application for Windows, Linux, Mac and Android
             devices using WiFi.
           </p>
           <a
             href="#"
-            className="inline-flex items-center justify-between capitalize px-8 py-4 bg-gray-800 rounded-lg text-white mt-2"
+            className="inline-flex items-center justify-between capitalize   px-8 py-4 bg-gray-800 rounded-lg text-white mt-2"
           >
             download
             <ArrowDownIcon className="w-6 h-6 pl-2" />
@@ -64,9 +64,9 @@ function App() {
         <img
           src={wiShareScreenshot}
           alt="WiShare application screenshot"
-          className="rounded-lg md:w-2/3  shadow-md shadow-gray-800 block"
+          className="rounded-lg md:w-2/3 mt-4 mb-20 shadow-md shadow-gray-800 block"
         />
-        <div className="custom-shape-divider-bottom-1689638420">
+        <div className="custom-shape-divider-bottom-1689638420 hidden lg:block">
           <svg
             data-name="Layer 1"
             xmlns="http://www.w3.org/2000/svg"
